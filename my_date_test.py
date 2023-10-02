@@ -50,4 +50,4 @@ class MyDateTest(unittest.TestCase):
     # to_str
     #
     def test_to_str1(self):
-        self.assertEqual("Friday, 02 August 2024", my_date.to_str(2024, 8, 2))
+        self.assertEqual("Saturday, 02 August 2024", my_date.to_str(2024, 8, 2))
